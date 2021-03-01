@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: '微軟正黑體';
+  font-weight: 100;
+}
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+body{
+  background-color: #ffb6b9;
+  overflow: hidden;
+}
+#bg{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size:200px;
+  color: rgba(194,126,127,0.9);
+}
+.card{
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: all .4s;
+  box-shadow: 5px 5px 5px #ff8084;
+  overflow: hidden;
+}
+.card:hover{
+  box-shadow: 12px 12px 12px #ff999c;
+  top: 49%;
+  left: 49%;
+}
+#header #logo h1{
+  background: url(https://fakeimg.pl/100x30/);
+  width: 100px;
+  height: 30px;
+  text-indent: 101%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#logo{
+  float: right;
+  margin-bottom: 80px;
+}
+#about{
+  display: flex;
+  float: left;
+}
+#job{
+  margin-top: 95px;
+  color: #660000;
+}
+.name{
+  padding: 5px 15px;
+  padding-left: 0;
+}
+h2{
+  font-size: 20px;
+}
+h5{
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.line{
+  border-right: 1px solid #000;
+  height: 35px;
+  margin-top: 10px;
+}
+.contact{
+  padding: 5px 15px;
+  line-height: 23px;
+  font-size:8px;
+}
+#qriteam{
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-top: -15px;
+  
+}
+.qrlink{
+  margin-left: 10px;
+  text-align: center;
+}
+.stext{
+  font-size:8px;
+}
